@@ -1,5 +1,6 @@
+import Refund from "../Components/Policies/Refund_Policy";
 
-import Refund from "@/Components/Policies/Refund_Policy";
+
 export default function Home() {
   return (
     <>

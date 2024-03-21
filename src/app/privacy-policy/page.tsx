@@ -1,4 +1,5 @@
-import Privacy_Policy from "@/Components/Policies/Privacy_policy";
+import Privacy_Policy from "../Components/Policies/Privacy_policy";
+
 export default function Home() {
   return (
     <>

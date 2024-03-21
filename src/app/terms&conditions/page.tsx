@@ -1,6 +1,6 @@
+import Terms_and_conditions from "../Components/Policies/terms_and_conditions";
 
 
-import Terms_and_conditions from "@/Components/Policies/terms_and_conditions";
 export default function Home() {
   return (
     <>
