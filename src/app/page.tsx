@@ -1,4 +1,5 @@
 
+import { Journey } from "./Components/Customerjourney";
 import Hero from "./Components/Hero";
 
 export default function Home() {
@@ -10,8 +11,8 @@ export default function Home() {
           Why <span>WOW</span> <span >Health</span>{" "}
           <span className="text-[#EB2227]"> ?</span>
         </div>
-        {/* <Journey />
-        <TypeWrite /> */}
+        <Journey />
+        {/* <TypeWrite /> */}
 
     
     </>
