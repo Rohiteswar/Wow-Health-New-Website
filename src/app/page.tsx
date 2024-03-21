@@ -10,8 +10,18 @@ export default function Home() {
         Why <span>WOW</span> <span>Health</span>{" "}
         <span className="text-[#EB2227]"> ?</span>
       </div>
-      <Journey />
-      <TypeWrite />
+      <div>
+        <Journey />
+      </div>
+      <br />
+      <div className="mt-10">
+        <div className="mx-auto flex flex-col place-items-center">
+          <div className="text-black text-4xl">Join Your Hands With Us 🤝</div>
+          <div className="-mt-[160px]">
+            <TypeWrite />
+          </div>
+        </div>
+      </div>
     </>
   );
 }
