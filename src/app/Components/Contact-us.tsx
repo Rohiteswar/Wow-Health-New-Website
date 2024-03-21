@@ -39,7 +39,7 @@ export default function BasicForm() {
   }
 
   return (
-    <div className="mt-10 flex flex-col place-items-center">
+    <div className="mt-14 flex flex-col place-items-center">
       <form onSubmit={(e) => onSubmit(e)}>
         <div className="w-full px-4 py-12 md:py-24 lg:px-6 ">
           <div className="flex flex-col place-items-center">
