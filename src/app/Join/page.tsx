@@ -1,18 +1,23 @@
 import Link from "next/link";
 import { JSX, SVGProps } from "react";
-import store from "../../../public/Screens.jpeg";
+import Banner from "../../../public/Screens.png";
+import Mobile from "../../../public/Home User-portrait.png";
 import Image from "next/image";
 
 export default function Component() {
   return (
     <div className="grid items-start gap-12 pt-12 pb-16 px-4 md:pt-24 md:pb-24 md:gap-24 lg:grid-cols-2 lg:gap-32 xl:px-6">
       <div className="space-y-4 mt-40 md:m-40">
+        <div className="text-black text-center text-xl">
+          Welcome To{" "}
+          <span className="text-4xl text-[#EB2226]"> Wow Health </span>{" "}
+          Memberships 🎉
+        </div>
         <div className="flex flex-col items-center justify-center space-y-4">
           <div className="border rounded-lg p-2 text-black">
-            <Image src={store} alt="Picture of the author" sizes="100px" />
+            <Image src={Banner} alt="Picture of the author" sizes="100px" />
           </div>
         </div>
-
         <div className="space-y-2">
           <h1 className="text-3xl text-black font-bold tracking-tighter sm:text-5xl md:text-6xl">
             Wow Health
@@ -25,19 +30,20 @@ export default function Component() {
           <div className="flex items-center space-x-2">
             <CheckIcon className="w-4 h-4 text-gray-500" />
             <p className="text-sm leading-none text-gray-500 dark:text-gray-400">
-              Track your steps, sleep, and heart rate.
+              Track your Weight, Diet, and Fitness.
             </p>
           </div>
           <div className="flex items-center space-x-2">
             <CheckIcon className="w-4 h-4 text-gray-500" />
             <p className="text-sm leading-none text-gray-500 dark:text-gray-400">
-              Chat with doctors and book appointments.
+              Chat With Coaches and Make A Direct Calls.
             </p>
           </div>
           <div className="flex items-center space-x-2">
             <CheckIcon className="w-4 h-4 text-gray-500" />
             <p className="text-sm leading-none text-gray-500 dark:text-gray-400">
-              Personalized health tips and reminders.
+              Personalized health tips and Daily Reminders for Classes, We Care
+              For You .
             </p>
           </div>
         </div>
