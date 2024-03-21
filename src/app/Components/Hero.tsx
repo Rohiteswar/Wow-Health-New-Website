@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="space-y-16 mt-16 md:mt-10">
         <div className="p-10 space-y-6 md:space-y-0 md:grid md:grid-cols-12 md:gap-8 xl:gap-16">
           <div className="flex flex-col justify-center space-y-3 md:col-span-6 xl:col-span-5">
-            <h1 className="text-3xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
+            <h1 className="text-3xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-black">
               Join the <span className="text-[#EB2227]">WOW</span> Health
               Nutrition Club
             </h1>
