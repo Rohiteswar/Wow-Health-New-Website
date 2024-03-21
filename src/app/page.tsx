@@ -1,5 +1,6 @@
 import { Journey } from "./Components/Customerjourney";
 import Hero from "./Components/Hero";
+import { TypeWrite } from "./Components/Typewriter";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <span className="text-[#EB2227]"> ?</span>
       </div>
       <Journey />
-      {/* <TypeWrite /> */}
+      <TypeWrite />
     </>
   );
 }
