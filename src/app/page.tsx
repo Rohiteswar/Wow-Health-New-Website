@@ -15,7 +15,7 @@ export default function Home() {
       </div>
       <br />
       <div className="mt-10">
-        <div className="mx-auto flex flex-col place-items-center">
+        <div className="mx-auto flex flex-col place-items-center text-center">
           <div className="text-black text-4xl">Join Your Hands With Us 🤝</div>
           <div className="-mt-[160px]">
             <TypeWrite />
