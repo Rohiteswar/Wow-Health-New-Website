@@ -13,7 +13,7 @@ export function TextRevealCardPreview() {
         text="Through tailored plans"
         revealText="Your goals we surmise"
       >
-        <TextRevealCardTitle>Wow Health</TextRevealCardTitle>
+        <TextRevealCardTitle>Wow Health - Slide To See Our Success Secret</TextRevealCardTitle>
         <TextRevealCardDescription>
           From BMI checks to plans precise,
         </TextRevealCardDescription>
