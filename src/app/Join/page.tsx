@@ -1,12 +1,20 @@
 import Link from "next/link";
 import { JSX, SVGProps } from "react";
+import store from "../../../public/Screens.jpeg";
+import Image from "next/image";
 
 export default function Component() {
   return (
     <div className="grid items-start gap-12 pt-12 pb-16 px-4 md:pt-24 md:pb-24 md:gap-24 lg:grid-cols-2 lg:gap-32 xl:px-6">
-      <div className="space-y-4">
+      <div className="space-y-4 mt-40 md:m-40">
+        <div className="flex flex-col items-center justify-center space-y-4">
+          <div className="border rounded-lg p-2 text-black">
+            <Image src={store} alt="Picture of the author" sizes="100px" />
+          </div>
+        </div>
+
         <div className="space-y-2">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
+          <h1 className="text-3xl text-black font-bold tracking-tighter sm:text-5xl md:text-6xl">
             Wow Health
           </h1>
           <p className="text-gray-500 dark:text-gray-400">
@@ -35,22 +43,16 @@ export default function Component() {
         </div>
         <div className="grid gap-2">
           <Link
-            className="inline-flex h-10 items-center rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 "
+            className="inline-flex h-10 text-black items-center rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 "
             href="#"
           >
             Download on the Play Store
           </Link>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center space-y-4">
-        <div className="border rounded-lg p-2">
-          {/* <img
-              alt="QR Code"
-              className="aspect-[1/1] overflow-hidden rounded-lg object-contain object-center"
-              height="200"
-              src="/placeholder.svg"
-              width="200"
-            /> */}
+      <div className="flex flex-col items-center justify-center space-y-4 mt-40">
+        <div className="border rounded-lg p-2 text-black">
+          You Will Get The Access Soon
         </div>
         <p className="text-sm text-gray-500 dark:text-gray-400">
           Scan to download the app
