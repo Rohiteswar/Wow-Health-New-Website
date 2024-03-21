@@ -13,7 +13,8 @@ const myFont = localFont({
 
 export const metadata: Metadata = {
   title: "Wow Health",
-  description: "We Give Healthy Diet and Minimal Cost Services To The Client",
+  description:
+    "We Give Healthy Diet At Minimal Cost Services To The Client. Download our App Wow Health",
 };
 
 export default function RootLayout({

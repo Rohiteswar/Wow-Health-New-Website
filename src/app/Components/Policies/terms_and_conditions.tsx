@@ -1,25 +1,40 @@
-import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal } from "react";
+import {
+  ReactElement,
+  JSXElementConstructor,
+  ReactNode,
+  ReactPortal,
+} from "react";
 
 /* eslint-disable react/no-unescaped-entities */
-export default function Terms_and_conditions(props: { date: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal  | null | undefined; }) {
+export default function Terms_and_conditions(props: {
+  date:
+    | string
+    | number
+    | boolean
+    | ReactElement<any, string | JSXElementConstructor<any>>
+    | Iterable<ReactNode>
+    | ReactPortal
+    | null
+    | undefined;
+}) {
   return (
     <>
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <div className="space-y-8">
+        <div className="space-y-8 mt-40">
           <div className="space-y-2">
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl sm:leading-none">
+            <h1 className="text-3xl text-black font-bold tracking-tighter sm:text-5xl sm:leading-none">
               Wow Health Terms of Service
             </h1>
             <p className="text-gray-500 dark:text-gray-400">
               Last updated: {props.date}
             </p>
           </div>
-          <div className="space-y-4">
+          <div className="space-y-4 text-black">
             <div className="space-y-4">
-              <h2 className="text-2xl font-bold">
+              <h2 className="text-2xl font-bold text-black">
                 Introduction To Our Terms & Conditions
               </h2>
-              <p>
+              <p className="text-black">
                 These Terms of Service ("Terms") govern your access to and use
                 of the Wow Health app ("App"). By accessing or using the App,
                 you agree to be bound by these Terms.
