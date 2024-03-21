@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Fonder from "../../public/hussain.jpg";
+import Fonder from "../../../public/hussain.jpg";
 
-import thumbnail from "../../public/Thumbnail.jpg";
+import thumbnail from "../../../public/thumbnail.jpg";
 import { FollowerPointerCard } from "./ui/Following-Pointer";
 import Link from "next/link";
 
@@ -56,7 +56,7 @@ const blogContent = {
     "Meet Our Dynamic Team Driving Wow Health's Affordable Wellness Revolution",
   description:
     "Discover the driving force behind Wow Health's mission: Founder Hussain Shaik, Co-founder Praveen, and Trainer Janu. Together, we're committed to making healthy Lifestyle accessible to all, breaking down cost barriers for a healthier tomorrow.",
-  image: "/Thumbnail.jpg",
+  image: "/thumbnail.jpg",
   authorAvatar: "/hussain.jpg",
 };
 
