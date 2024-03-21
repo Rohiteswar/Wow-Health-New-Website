@@ -5,7 +5,6 @@ import Bmi from "./ui/Content/Bmi";
 import Diet from "./ui/Content/Diet";
 import Planning from "./ui/Content/Planning";
 
-
 export function Journey() {
   return (
     <TracingBeam className="px-6">
@@ -16,7 +15,7 @@ export function Journey() {
               {item.badge}
             </h2>
 
-            <p className="text-xl mb-4">{item.title}</p>
+            <p className="text-xl text-black mb-4">{item.title}</p>
 
             <div className="text-base text-slate-700 prose prose-sm dark:prose-invert">
               {item.svg}
@@ -52,7 +51,7 @@ const dummyContent = [
     svg: <Planning />,
   },
   {
-    title: "Your Personalized Health Companion",
+    title: "Your Personalized Healthy Diet Companion",
     description: <>{sentence3}</>,
     badge: "WOW Health App Subscription",
     svg: <Diet />,
