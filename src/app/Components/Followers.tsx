@@ -29,7 +29,7 @@ export function FollowingPointer() {
             />
           </div>
           <div className=" p-4">
-            <h2 className="font-bold my-4 text-lg text-zinc-700">
+            <h2 className="font-bold my-4 text-lg text-zinc-900">
               {blogContent.title}
             </h2>
             <h2 className="font-normal my-4 text-sm text-zinc-500">
@@ -37,7 +37,10 @@ export function FollowingPointer() {
             </h2>
             <div className="flex flex-row justify-between items-center mt-10">
               <span className="text-sm text-gray-500">{blogContent.date}</span>
-              <Link className="relative z-10 px-6 py-2 bg-black text-white font-bold rounded-xl block text-xs" href="/Join">
+              <Link
+                className="relative z-10 px-6 py-2 bg-black text-white font-bold rounded-xl block text-xs"
+                href="/Join"
+              >
                 Join Now
               </Link>
             </div>
