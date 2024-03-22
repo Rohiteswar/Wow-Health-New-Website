@@ -4,6 +4,7 @@ import React, { useState } from "react";
 export default function BasicForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [phonenumber, setphonenumber] = useState("");
   const [message, setMessage] = useState("");
 
   const [error, setError] = useState("");
@@ -12,13 +13,13 @@ export default function BasicForm() {
     e.preventDefault();
     e.stopPropagation();
 
-    fetch("https://formcarry.com/s/UYnkHGkZ6xA", {
+    fetch("https://formcarry.com/s/jC-XxLAERrR", {
       method: "POST",
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ name, email, message }),
+      body: JSON.stringify({ name, email, phonenumber, message }),
     })
       .then((response) => response.json())
       .then((response) => {
@@ -62,12 +63,13 @@ export default function BasicForm() {
                     Full Name
                   </label>
                   <input
-                    className="text-black flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                    className="text-slate-500 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                     type="text"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     id="full-name"
                     placeholder="Enter your full name"
+                    name="Fullname"
                   />
                 </div>
                 <div className="space-y-2">
@@ -78,12 +80,30 @@ export default function BasicForm() {
                     Email
                   </label>
                   <input
-                    className="text-black flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                    type="email"
+                    className="text-slate-500 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                    type="text"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     id="email"
-                    placeholder="Enter your email"
+                    placeholder="Enter your Email"
+                    name="Email"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <label
+                    className="text-black text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                    htmlFor="phonenumber"
+                  >
+                    Phone Number
+                  </label>
+                  <input
+                    className="text-slate-500 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                    type="text"
+                    value={phonenumber}
+                    onChange={(e) => setphonenumber(e.target.value)}
+                    id="phonenumber"
+                    placeholder="Enter your phone number"
+                    name="Phone Number"
                   />
                 </div>
                 <div className="space-y-2">
@@ -111,6 +131,8 @@ export default function BasicForm() {
                 </button>
               </div>
 
+              <br />
+              
               <div className="space-y-4 text-black">
                 <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">
                   Contact information

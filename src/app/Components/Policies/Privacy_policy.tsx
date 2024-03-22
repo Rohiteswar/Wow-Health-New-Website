@@ -34,7 +34,7 @@ export default function Privacy_Policy(props: {
               <h2 className="text-2xl  font-bold">
                 Introduction to Our Privacy Policy
               </h2>
-              <p>
+              <p className="text-slate-500">
                 Wow Health ("we," "us," or "our") is committed to protecting the
                 privacy of our users ("you" or "your"). This Privacy Policy
                 explains what information we collect, how we use it, and under
@@ -44,7 +44,7 @@ export default function Privacy_Policy(props: {
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Information We Collect</h2>
               <h2 className="text-xl font-bold">Personal Information:</h2>
-              <p>
+              <p className="text-slate-500">
                 When you create an account or use certain features of the Wow
                 Health app, you may provide us with certain personal
                 information, such as your name, email address, phone number, and
@@ -64,7 +64,7 @@ export default function Privacy_Policy(props: {
               <h2 className="text-xl font-bold">
                 We use the information we collect to:
               </h2>
-              <p>
+              <p className="text-slate-500">
                 Provide and improve the Wow Health app Send you important
                 information about the app, such as updates, security alerts, and
                 support messages Respond to your questions and requests
@@ -82,7 +82,7 @@ export default function Privacy_Policy(props: {
 
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Your Choices</h2>
-              <p>
+              <p className="text-slate-500">
                 You can access, update, or delete your personal information by
                 contacting us at{" "}
                 <span className="font-extrabold">
@@ -94,7 +94,7 @@ export default function Privacy_Policy(props: {
 
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Security</h2>
-              <p>
+              <p className="text-slate-500">
                 We take reasonable steps to protect your information from
                 unauthorized access, disclosure, alteration, or destruction.
                 However, no internet or electronic storage system is 100%
@@ -104,7 +104,7 @@ export default function Privacy_Policy(props: {
 
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Children's Policy</h2>
-              <p>
+              <p className="text-slate-500">
                 We do not knowingly collect personal information from children
                 under the age of 13. If you are a parent or guardian and you
                 believe your child has provided us with personal information,
@@ -116,7 +116,7 @@ export default function Privacy_Policy(props: {
               <h2 className="text-2xl font-bold">
                 Changes to this Privacy Policy
               </h2>
-              <p>
+              <p className="text-slate-500">
                 We may update this Privacy Policy from time to time. We will
                 notify you of any changes by posting the new Privacy Policy on
                 the Wow Health app.
@@ -125,7 +125,7 @@ export default function Privacy_Policy(props: {
 
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Contact Us</h2>
-              <p>
+              <p className="text-slate-500">
                 If you have any questions or suggestions about our Privacy
                 Policy, do not hesitate to contact us.
               </p>

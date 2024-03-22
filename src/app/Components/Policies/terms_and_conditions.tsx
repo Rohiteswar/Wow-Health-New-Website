@@ -34,7 +34,7 @@ export default function Terms_and_conditions(props: {
               <h2 className="text-2xl font-bold text-black">
                 Introduction To Our Terms & Conditions
               </h2>
-              <p className="text-black">
+              <p className="text-slate-500">
                 These Terms of Service ("Terms") govern your access to and use
                 of the Wow Health app ("App"). By accessing or using the App,
                 you agree to be bound by these Terms.
@@ -42,7 +42,7 @@ export default function Terms_and_conditions(props: {
             </div>
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Use of the App</h2>
-              <p>
+              <p className="text-slate-500">
                 You may only use the App for lawful purposes and in accordance
                 with these Terms. You agree not to use the App in any way that
                 could damage, disable, overburden, or impair the App or
@@ -53,7 +53,7 @@ export default function Terms_and_conditions(props: {
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Intellectual Property</h2>
 
-              <p>
+              <p className="text-slate-500">
                 The App and all content included in the App (including text,
                 graphics, logos, images, and software) are the property of Wow
                 Health or its licensors. You may not use any content from the
@@ -63,7 +63,7 @@ export default function Terms_and_conditions(props: {
 
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Disclaimer</h2>
-              <p>
+              <p className="text-slate-500">
                 The App is provided "as is" and without warranty of any kind,
                 express or implied. Wow Health disclaims all warranties,
                 including, but not limited to, the implied warranties of
@@ -74,7 +74,7 @@ export default function Terms_and_conditions(props: {
 
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Limitation of Liability</h2>
-              <p>
+              <p className="text-slate-500">
                 Wow Health will not be liable for any damages arising out of or
                 in connection with your use of the App, including, but not
                 limited to, direct, indirect, incidental, consequential, or
@@ -84,7 +84,7 @@ export default function Terms_and_conditions(props: {
 
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Termination</h2>
-              <p>
+              <p className="text-slate-500">
                 We may terminate your access to the App for any reason, at any
                 time, without notice.
               </p>
@@ -92,7 +92,7 @@ export default function Terms_and_conditions(props: {
 
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Changes to these Terms</h2>
-              <p>
+              <p className="text-slate-500">
                 We may update these Terms from time to time. We will notify you
                 of any changes by posting the new Terms on the Wow Health app.
               </p>
@@ -100,7 +100,7 @@ export default function Terms_and_conditions(props: {
 
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Entire Agreement</h2>
-              <p>
+              <p className="text-slate-500">
                 These Terms constitute the entire agreement between you and Wow
                 Health regarding your use of the App.
               </p>
@@ -108,7 +108,7 @@ export default function Terms_and_conditions(props: {
 
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Governing Law</h2>
-              <p>
+              <p className="text-slate-500">
                 These Terms will be governed by and construed in accordance with
                 the laws of the State of{" "}
                 <span className="font-semibold">Andhra Pradesh</span>.
@@ -117,10 +117,10 @@ export default function Terms_and_conditions(props: {
 
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Contact Us</h2>
-              <p>
+              <p className="text-slate-500">
                 If you have any questions about these Terms, please contact us
                 at{" "}
-                <span className="font-semibold">
+                <span className="font-semibold text-black">
                   {" "}
                   mails.wowhealth@gmail.com
                 </span>

@@ -32,7 +32,7 @@ const sentence =
   "At WOW Health Services, we prioritize understanding your body's metrics. Through our BMI assessment service, we provide insight into your body mass index relative to your age. This assessment serves as a foundational step in comprehending your current health condition, guiding our tailored approach towards holistic well-being.";
 
 const sentence2 =
-  "Take charge of your wellness journey with WOW Health Services' personalized weight management program. Utilizing data from your BMI report, we curate a comprehensive plan designed for your specific goals, whether it be weight loss or weight gain. Our expert guidance and tailored strategies empower you to achieve sustainable results and foster a healthier lifestyle.";
+  "Take control of your wellness journey with WOW Health Services' personalized weight management program. Leveraging data from your BMI (Body Fat, Visceral Fat, Subcutaneous Fat, Muscle Mass Gain, and Weight Loss/Gain) Reports, we craft a comprehensive plan tailored to your specific goals, whether it's weight loss or weight gain. Our expert guidance and customized strategies empower you to attain sustainable results and cultivate a healthier lifestyle.";
 
 const sentence3 =
   "Elevate your health experience with the WOW Health Application subscription. Gain exclusive access to our innovative platform, where personalized plans are at your fingertips. Seamlessly integrated with our monitoring system, the application enables continuous tracking of your diet and progress. With WOW Health, embark on a journey towards optimal health and well-being, supported by technology and expertise.";
