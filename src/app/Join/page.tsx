@@ -50,9 +50,9 @@ export default function Component() {
         <div className="grid gap-2">
           <Link
             className="inline-flex h-10 text-black items-center rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 "
-            href="#"
+            href="https://drive.google.com/file/d/1SB-XAcTXAuuMc0dDhgyAIVY3rEsXgWnH/view?usp=sharing" target="_blank"
           >
-            Download on the Play Store
+            Download the APK
           </Link>
         </div>
       </div>
