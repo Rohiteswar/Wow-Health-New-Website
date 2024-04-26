@@ -130,31 +130,6 @@ export default function DeleteForm() {
                   Submit
                 </button>
               </div>
-
-              <br />
-              
-              <div className="space-y-4 text-black">
-                <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">
-                  Contact information
-                </h2>
-                <div className="space-y-2">
-                  <p className="font-medium">Email</p>
-                  <p className="text-gray-500">mails.wowhealth@gmail.com</p>
-                </div>
-                <div className="space-y-2">
-                  <p className="font-medium">Phone</p>
-                  <p className="text-gray-500">+91 9985232345</p>
-                </div>
-                <div className="space-y-2">
-                  <p className="font-medium">Operating Address</p>
-                  <p className="text-gray-500">
-                    {" "}
-                    Wow Health Centre, 23-15-112B,GS Raju Road Road, Near
-                    Meesala Raja Rao Bridge, Vijayawada, Andhra Pradesh
-                    PIN Code: 520011
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
