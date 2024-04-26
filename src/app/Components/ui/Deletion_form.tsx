@@ -48,8 +48,7 @@ export default function DeleteForm() {
               <div>
                 <h2 className="text-3xl font-bold text-black">Account Deletion Request ✉</h2>
                 <p className="text-gray-500 dark:text-gray-400 mt-2">
-                  Have questions? Send us a message and we will get back to you
-                  shortly.
+                  Want to delete your account? Send us a message and we will process your request.
                 </p>
               </div>
             </div>
