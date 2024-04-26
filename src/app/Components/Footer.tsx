@@ -8,6 +8,9 @@ export default function Footer() {
         <Link className="text-xs text-black hover:underline underline-offset-4" href="/terms&conditions">
           Terms of Service
         </Link>
+        <Link className="text-xs text-black hover:underline underline-offset-4" href="/account-deletion">
+        Account Deletion Request
+        </Link>
         <Link className="text-xs text-black hover:underline underline-offset-4" href="/privacy-policy">
           Privacy
         </Link>
