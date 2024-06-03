@@ -15,7 +15,7 @@ export default function Component() {
         </div>
         <div className="flex flex-col items-center justify-center space-y-4">
           <div className="border rounded-lg p-2 text-black">
-            <Image src={Banner} alt="Picture of the author" sizes="100px" />
+            <Image src={Banner} alt="Picture of the author" sizes="80px" />
           </div>
         </div>
         <div className="space-y-2">
@@ -47,23 +47,16 @@ export default function Component() {
             </p>
           </div>
         </div>
-        <div className="grid gap-2">
-          <Link
-            className="inline-flex h-10 text-black items-center rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 "
-            href="https://drive.google.com/file/d/1SB-XAcTXAuuMc0dDhgyAIVY3rEsXgWnH/view?usp=sharing"
-            target="_blank"
-          >
-            Download the .APK
-          </Link>
+        <div className="flex gap-2">
+          <a href="https://play.google.com/store/apps/details?id=space.wowhealth.wowhealthapp">
+          <Image src={"/Badges/Play Store badge.svg"} alt={"Play Store"} width={160} height={50}         
+          />
+          </a>
+          <a href="https://apps.apple.com/in/app/wow-health-app/id6499275589">
+          <Image src={"/Badges/App Store Badge.svg"} alt={"App Store"} width={160} height={50}         
+          />
+          </a>
         </div>
-      </div>
-      <div className="flex flex-col items-center justify-center space-y-4 mt-40">
-        <div className="border rounded-lg p-2 text-black">
-          You Will Get The Access Soon
-        </div>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
-          Scan to download the app
-        </p>
       </div>
     </div>
   );
